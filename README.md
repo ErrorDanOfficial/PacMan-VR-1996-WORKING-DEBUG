@@ -1,4 +1,4 @@
-### [НА РУССКОМ ТУТ](https://github.com/ErrorDanOfficial/PacMan-VR-1996-WORKING-DEBUG/blob/main/README.md#L34-67)
+### [НА РУССКОМ ТУТ](https://github.com/ErrorDanOfficial/PacMan-VR-1996-WORKING-DEBUG/blob/main/README.md#L34-L67)
 # Pac-Man VR (1996), PC Port
 
  * Ported by ErrorDan
@@ -64,6 +64,7 @@
 
 * **Debug Mode**: Текстовый режим, который вы видите, на самом деле встроенный инструмент разработчиков, КОТОРЫЙ НАКОНЕЦ-ТО ПОДДЕРЖИВАЕТ VGA. Оригинальные разработчики включили (PIX_Open failure fallback), чтобы отлаживать игровую логику без шлема. Он отображает сырые данные трекинга головы и AI призраков.
 * **VGA Mode**: VGA-режим был жёстко прописан и отключён разработчиками.
+
 
 
 
