@@ -1,4 +1,8 @@
-### [НА РУССКОМ ТУТ](https://github.com/ErrorDanOfficial/PacMan-VR-1996-WORKING-DEBUG/blob/main/README.md#L34-L67)
+## Language
+- [English](#english)
+- [Русский](#русский)
+  
+<a id="english"></a>
 # Pac-Man VR (1996), PC Port
 
  * Ported by ErrorDan
@@ -31,7 +35,8 @@
 *   Debug Mode: The text mode you see is actually a built-in developer tool WHICH FINALLY SUPPORTS VGA. The original devs included (PIX_Open failure fallback) to debug game logic without the headset. It displays raw head tracking data and ghost AI.
 *   VGA Mode: VGA mode was hardcoded and disabled by developers.
 
-# Pac-Man VR (1996), PC-порт
+<a id="русский"></a>
+# Pac-Man VR (1996), ПК порт
 
 * Портировано: ErrorDan
 * Разработчик: Virtuality (Virtuality Group / Virtuality Entertainment)
@@ -64,6 +69,7 @@
 
 * **Debug Mode**: Текстовый режим, который вы видите, на самом деле встроенный инструмент разработчиков, КОТОРЫЙ НАКОНЕЦ-ТО ПОДДЕРЖИВАЕТ VGA. Оригинальные разработчики включили (PIX_Open failure fallback), чтобы отлаживать игровую логику без шлема. Он отображает сырые данные трекинга головы и AI призраков.
 * **VGA Mode**: VGA-режим был жёстко прописан и отключён разработчиками.
+
 
 
 
