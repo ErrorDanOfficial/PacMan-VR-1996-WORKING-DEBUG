@@ -5,9 +5,9 @@ Pac-Man VR (1996), PC Port
  * ROM purchase & dump: chilistudios (aka PACNATIC)
 
 
- * This is a patched version of the rare Pac-Man VR arcade game (originally developed by Virtuality for Namco in 1996). The original game required a proprietary SU2000 VR headset and specific hardware cards to run. This port bypasses those hardware checks, allowing the game logic to run on standard pc emulators like DOSBox.
+ This is a patched version of the rare Pac-Man VR arcade game (originally developed by Virtuality for Namco in 1996). The original game required a proprietary SU2000 VR headset and specific hardware cards to run. This port bypasses those hardware checks, allowing the game logic to run on standard pc emulators like DOSBox.
 
- * Due to the hardware dependency of the 3d rendering library , the game currently runs in Debug Text Mode. The game logic, AI, and sound are fully functional, but the 3D graphics are replaced by a developer overlay showing coordinates and state because of the hardware. 
+  Due to the hardware dependency of the 3d rendering library , the game currently runs in Debug Text Mode. The game logic, AI, and sound are fully functional, but the 3D graphics are replaced by a developer overlay showing coordinates and state because of the hardware. 
 
 # How to Run
 
@@ -15,7 +15,8 @@ Pac-Man VR (1996), PC Port
 2.  **Extract Files**: Unzip this archive into a folder.
 3.  **Launch**:
     *   Drag and drop RUN_GAME.BAT onto the DOSBox-X executable.
-    *   *OR* run via command line: `dosbox-x -conf dosbox_pacman.conf` (don't forget to change path name!)
+      [PHOTO](https://github.com/ErrorDanOfficial/PacMan-VR-1996-WORKING-DEBUG/blob/main/HOWTOSTART.png)
+    *   OR run via command line: `dosbox-x -conf dosbox_pacman.conf` (don't forget to change path name!) [PHOTO](https://github.com/ErrorDanOfficial/PacMan-VR-1996-WORKING-DEBUG/blob/main/SECONDWAY.png)
 4.  **Controls**:
     won't even work
 
@@ -28,4 +29,5 @@ Pac-Man VR (1996), PC Port
 ### Easter Eggs :)
 *   Debug Mode: The text mode you see is actually a built-in developer tool WHICH FINALLY SUPPORTS VGA. The original devs included (PIX_Open failure fallback) to debug game logic without the headset. It displays raw head tracking data and ghost AI.
 *   VGA Mode: VGA mode was hardcoded and disabled by developers.
+
 
