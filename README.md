@@ -1,4 +1,5 @@
-Pac-Man VR (1996), PC Port
+### [НА РУССКОМ ТУТ](https://github.com/ErrorDanOfficial/PacMan-VR-1996-WORKING-DEBUG/blob/main/README.md#L34-67)
+# Pac-Man VR (1996), PC Port
 
  * Ported by ErrorDan
  * Developer: Virtuality (Virtuality Group / Virtuality Entertainment
@@ -29,5 +30,43 @@ Pac-Man VR (1996), PC Port
 ### Easter Eggs :)
 *   Debug Mode: The text mode you see is actually a built-in developer tool WHICH FINALLY SUPPORTS VGA. The original devs included (PIX_Open failure fallback) to debug game logic without the headset. It displays raw head tracking data and ghost AI.
 *   VGA Mode: VGA mode was hardcoded and disabled by developers.
+
+# Pac-Man VR (1996), PC-порт
+
+* Портировано: ErrorDan
+* Разработчик: Virtuality (Virtuality Group / Virtuality Entertainment)
+* Покупка и дамп ROM: chilistudios (aka PACNATIC)
+
+Это пропатченная версия редкой аркадной игры Pac-Man VR (первоначально разработанной Virtuality для Namco в 1996 году). Оригинальная игра требовала фирменный VR-шлем SU2000 и специфические аппаратные платы для запуска. Этот порт обходит проверки оборудования, позволяя игровой логике работать на обычных PC-эмуляторах, таких как DOSBox.
+
+Из-за аппаратной зависимости библиотеки 3D-рендеринга игра сейчас работает в текстовом режиме Debug. Игровая логика, AI и звук полностью функциональны, но 3D-графика заменена разработческим оверлеем, показывающим координаты и состояние из-за оборудования.
+
+# Как запустить
+
+1. **Скачайте DOSBox-X**: [https://dosbox-x.com/](https://dosbox-x.com/)
+2. **Распакуйте файлы**: распакуйте этот архив в папку.
+3. **Запуск**:
+
+   * Перетащите RUN_GAME.BAT на исполняемый файл DOSBox-X.
+     [ФОТО](https://github.com/ErrorDanOfficial/PacMan-VR-1996-WORKING-DEBUG/blob/main/HOWTOSTART.png)
+   * ИЛИ запустите через командную строку: `dosbox-x -conf dosbox_pacman.conf` (не забудьте изменить путь!)
+     [ФОТО](https://github.com/ErrorDanOfficial/PacMan-VR-1996-WORKING-DEBUG/blob/main/SECONDWAY.png)
+4. **Управление**:
+   всё равно не работает
+
+## Техническое:
+
+* Чтобы заставить игру работать, потребовалось преодолеть/обойти серьёзные препятствия:
+
+* Игра опирается на PIX.DLL, который жёстко прописан для связи с фирменными PCI-картами Virtuality. Более 332 вызовов к этой библиотеке были перехвачены и обойдены (заменены на NOP), чтобы предотвратить падение игры при отсутствии файлов. Стартовый код содержал бесконечные циклы ожидания изменения регистров состояния оборудования. Они были пропатчены, чтобы пропустить это. PC-порт превысил лимиты полигонов оригинального оборудования, что вызывало жёсткий краш (Too many vertices). Был пропатчен переход (JGE на JMP), чтобы игнорировать этот лимит и позволить загрузить полную геометрию уровней. Игра была рассчитана на аркадный автомат и ждала изменения определённого бита памяти (Coin Insert и Start Button) через I/O. Это было пропатчено для обхода проверки и включения автозапуска.
+
+### Пасхалки :)
+
+* **Debug Mode**: Текстовый режим, который вы видите, на самом деле встроенный инструмент разработчиков, КОТОРЫЙ НАКОНЕЦ-ТО ПОДДЕРЖИВАЕТ VGA. Оригинальные разработчики включили (PIX_Open failure fallback), чтобы отлаживать игровую логику без шлема. Он отображает сырые данные трекинга головы и AI призраков.
+* **VGA Mode**: VGA-режим был жёстко прописан и отключён разработчиками.
+
+
+
+
 
 
