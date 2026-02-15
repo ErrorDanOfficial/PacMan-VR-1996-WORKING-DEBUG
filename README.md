@@ -1,9 +1,9 @@
 # Status
-* v00.00.69: Only Debug Mode, published
-* v01.01.00: Found (dev build), fixing in progress, private for now
-* Game Graphics: No info (Vbios , io_stats needed)
-* GPU: Partially Found
-* CPU: Lost, no info
+* **v00.00.69**: Only Debug Mode, published
+* **v01.01.00**: Found (dev build), fixing in progress, private for now
+* **Game Graphics**: No info (Vbios , io_stats needed)
+* **GPU**: Partially Found
+* **CPU**: Lost, no info
 
 ## Language
 - [English](#english)
