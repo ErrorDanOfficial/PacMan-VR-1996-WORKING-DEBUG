@@ -16,6 +16,7 @@
  * Developer: Virtuality (Virtuality Group / Virtuality Entertainment
  * ROM purchase & dump: chilistudios (aka PACNATIC)
 
+#**PLEASE USE DOSBOX, NOT DOSBOX-X!!!!**
 
  This is a patched version of the rare Pac-Man VR arcade game (originally developed by Virtuality for Namco in 1996). The original game required a proprietary SU2000 VR headset and specific hardware cards to run. This port bypasses those hardware checks, allowing the game logic to run on standard pc emulators like DOSBox.
 
@@ -48,6 +49,8 @@
 * Портировано: ErrorDan
 * Разработчик: Virtuality (Virtuality Group / Virtuality Entertainment)
 * Покупка и дамп ROM: chilistudios (aka PACNATIC)
+
+#**ИСПОЛЬЗУЙТЕ DOSBOX, DOSBOX-X ТЯЖЕЛО НАСТРОИТЬ**
 
 Это пропатченная версия редкой аркадной игры Pac-Man VR (первоначально разработанной Virtuality для Namco в 1996 году). Оригинальная игра требовала фирменный VR-шлем SU2000 и специфические аппаратные платы для запуска. Этот порт обходит проверки оборудования, позволяя игровой логике работать на обычных PC-эмуляторах, таких как DOSBox.
 
