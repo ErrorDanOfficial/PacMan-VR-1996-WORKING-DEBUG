@@ -1,6 +1,6 @@
 # Status
 * **v00.00.69**: Only Debug Mode, published
-* **v01.01.00**: Found (dev build), fixing in progress, private for now
+* **v01.01.00**: Working logic
 * **Game Graphics**: TRYING TO EMULATE
 * **GPU**: FOUND
 * **CPU**: Lost, no info
