@@ -1,8 +1,8 @@
 # Status
 * **v00.00.69**: Only Debug Mode, published
 * **v01.01.00**: Found (dev build), fixing in progress, private for now
-* **Game Graphics**: No info (Vbios , io_state needed)
-* **GPU**: Partially Found
+* **Game Graphics**: TRYING TO EMULATE
+* **GPU**: FOUND
 * **CPU**: Lost, no info
 
 ## Language
